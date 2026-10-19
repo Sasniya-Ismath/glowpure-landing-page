@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlowPure Skincare Studio | Radiance Serum</title>
+    <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Top Announcement Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <span class="top-item">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#e5989b" stroke-width="2"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+                YOUR DAILY RITUAL, A LITTLE MORE RADIANT
+            </span>
+            <span class="divider">|</span>
+            <span class="top-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#e5989b" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+                FREE SHIPPING OVER LKR 7,500
+            </span>
+            <span class="divider">|</span>
+            <span class="top-item">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#e5989b" stroke-width="2"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
+                EXCLUSIVE OFFERS <span class="sparkle">+</span>
+            </span>
+        </div>
+    </div>
+
+    <!-- 2. Navigation Bar -->
+    <header class="navbar" id="top">
+        <div class="container nav-container">
+            <a href="#top" class="logo">
+                <span class="logo-emblem">
+                    <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+                        <path d="M16 3C10 9 7 14.5 7 20C7 24.97 11.03 29 16 29C20.97 29 25 24.97 25 20C25 14.5 22 9 16 3Z" stroke="#b33c5c" stroke-width="1.6"/>
+                        <path d="M16 8V28M16 18C13 15 10 14 10 14M16 22C19 19 22 18 22 18" stroke="#b33c5c" stroke-width="1.4" stroke-linecap="round"/>
+                    </svg>
+                </span>
+                <div class="logo-text">
+                    <strong>glow<span>pure</span></strong>
+                    <small>SKINCARE STUDIO</small>
+                </div>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#top" class="active">Home</a>
+                <a href="#benefits">Benefits</a>
+                <a href="#ingredients">Ingredients</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#faq">FAQ</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#checkout" class="btn-shop">Shop serum <span>→</span></a>
+                <button class="cart-btn" id="cart-btn" aria-label="Shopping bag">
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#2c1a1d" stroke-width="1.8"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                    <span class="cart-count" id="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 3. Hero Section & Lead Capture Form -->
+    <section class="hero-section">
+        <!-- Floating decorative petals -->
+        <div class="petal petal-1"></div>
+        <div class="petal petal-2"></div>
+        <div class="petal petal-3"></div>
+
+        <div class="container hero-grid">
+            
+            <!-- Left Column -->
+            <div class="hero-left">
+                <div class="eyebrow">
+                    <span class="line"></span> YOUR SKIN, IN ITS GLOW ERA
+                </div>
+                <h1>
+                    A little glow.<br>
+                    <em>A lot of you.</em>
+                </h1>
+                <p class="hero-desc">
+                    Meet your new everyday ritual. A lightweight radiance serum that helps skin feel hydrated, look fresh, and glow with confidence.
+                </p>
+
+                <div class="social-proof">
+                    <div class="avatars">
+                        <img src="https://i.pravatar.cc/100?img=47" alt="Customer">
+                        <img src="https://i.pravatar.cc/100?img=32" alt="Customer">
+                        <img src="https://i.pravatar.cc/100?img=44" alt="Customer">
+                        <img src="https://i.pravatar.cc/100?img=45" alt="Customer">
+                    </div>
+                    <div class="rating-info">
+                        <div class="stars">★★★★★ <span>4.9/5</span></div>
+                        <small>Loved by 2,400+ glow-getters</small>
+                    </div>
+                </div>
+
+                <div class="hero-cta-group">
+                    <a href="#checkout" class="btn-primary-pill">Meet your glow <span>→</span></a>
+                    <a href="#ingredients" class="btn-play">
+                        <span class="play-icon">▶</span> Explore the formula
+                    </a>
+                </div>
+
+                <div class="trust-badges">
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b33c5c" stroke-width="1.8"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+                        </div>
+                        <span>Dermatologically<br>Tested</span>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b33c5c" stroke-width="1.8"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/></svg>
+                        </div>
+                        <span>Paraben<br>Free</span>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#b33c5c" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M9 10h.01M15 10h.01M9.5 15a3.5 3.5 0 0 0 5 0"/></svg>
+                        </div>
+                        <span>Suitable for<br>All Skin Types</span>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="hero-center">
+                 <div class="bg-image-only-showcase"></div>
+            </div>
+            
+
+            <!-- Right Column: Lead Capture Form Card -->
+            <div class="hero-right">
+                <div class="lead-card">
+                    <div class="card-eyebrow">
+                        <span class="sun-badge">☼</span> A LITTLE SOMETHING FOR YOU
+                    </div>
+                    <h2>Your glow guide<br><em>is on us.</em></h2>
+                    <p class="card-sub">Get our 5-minute skincare ritual guide plus first dibs on GlowPure launches.</p>
+
+                    <!-- Technical Assessment Form (id="hero_lead_form") -->
+                    <form id="hero_lead_form">
+                        <div class="form-group">
+                            <label for="name">Your name</label>
+                            <input type="text" id="name" name="name" placeholder="e.g. Amaya Perera" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="skin_focus">What is your skin asking for?</label>
+                            <select id="skin_focus" name="skin_focus">
+                                <option value="">Choose a focus (optional)</option>
+                                <option value="hydration">Deep Hydration & Dewy Glow</option>
+                                <option value="brightening">Brightening & Even Tone</option>
+                                <option value="simplicity">Simple Everyday Routine</option>
+                            </select>
+                        </div>
+
+                        <label class="checkbox-group">
+                            <input type="checkbox" id="consent" required checked>
+                            <span>I agree to receive the guide and occasional GlowPure updates.</span>
+                        </label>
+
+                        <button type="submit" class="btn-submit">
+                            <span>Send me the glow guide</span>
+                            <span>→</span>
+                        </button>
+
+                        <div id="form-feedback" class="form-feedback"></div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 4. Feature Strip -->
+    <section class="feature-strip">
+        <div class="container strip-grid">
+            <div class="strip-item">
+                <div class="strip-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#b33c5c" stroke-width="1.7"><path d="M12 3c2.5 3.5 4 7 4 10a4 4 0 0 1-8 0c0-3 1.5-6.5 4-10z"/><path d="M5 10c2 1 4.5 3 5 6"/><path d="M19 10c-2 1-4.5 3-5 6"/></svg>
+                </div>
+                <div>
+                    <h4>Made for real routines</h4>
+                    <p>Simple, everyday skincare</p>
+                </div>
+            </div>
+            <div class="strip-item">
+                <div class="strip-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#b33c5c" stroke-width="1.7"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/></svg>
+                </div>
+                <div>
+                    <h4>Lightweight feel</h4>
+                    <p>Absorbs easily</p>
+                </div>
+            </div>
+            <div class="strip-item">
+                <div class="strip-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#b33c5c" stroke-width="1.7"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+                </div>
+                <div>
+                    <h4>Thoughtful ingredients</h4>
+                    <p>Loved by skin and nature</p>
+                </div>
+            </div>
+            <div class="strip-item">
+                <div class="strip-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#b33c5c" stroke-width="1.7"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+                </div>
+                <div>
+                    <h4>Your glow, your way</h4>
+                    <p>Made for everyone</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Benefits Section  -->
+
+   <!-- 5. Benefits Section (Exact Match with Original Design) -->
+    <section id="benefits" class="benefits-section">
+        <div class="container">
+            <div class="benefits-layout">
+                <!-- Left Intro Text & Link -->
+                <div class="benefits-intro">
+                    <div class="eyebrow">
+                        <span class="line"></span> THE EVERYDAY DIFFERENCE
+                    </div>
+                    <h2>Good skin days<br><em>start with a ritual.</em></h2>
+                    <p>
+                        Skincare doesn't need to be complicated. Give your routine one thoughtful step and let consistency do its thing.
+                    </p>
+                    <a href="#checkout" class="link-underline">Meet Radiance Serum <span>↗</span></a>
+                </div>
+
+                <!-- Right Cards Grid -->
+                <div class="benefits-cards">
+                    <div class="benefit-card">
+                        <img src="images/benefit-1.png" alt="That fresh, dewy feeling" class="benefit-img">
+                        <div class="benefit-content">
+                            <span class="card-tag">01 / HYDRATE</span>
+                            <h3>That fresh, dewy feeling.</h3>
+                            <p>Helps skin feel soft, smooth and comfortably hydrated throughout your routine.</p>
+                        </div>
+                    </div>
+
+                    <div class="benefit-card">
+                        <img src="images/benefit-2.png" alt="Meet your natural radiance" class="benefit-img">
+                        <div class="benefit-content">
+                            <span class="card-tag">02 / BRIGHTEN</span>
+                            <h3>Meet your natural radiance.</h3>
+                            <p>Supports a brighter-looking complexion with a fresh, healthy-looking glow.</p>
+                        </div>
+                    </div>
+
+                    <div class="benefit-card">
+                        <img src="images/benefit-3.png" alt="Less fuss. More feel-good." class="benefit-img">
+                        <div class="benefit-content">
+                            <span class="card-tag">03 / SIMPLIFY</span>
+                            <h3>Less fuss. More feel-good.</h3>
+                            <p>A lightweight routine that fits into your morning or evening, effortlessly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Ingredients Section  -->
+    
+    <section id="ingredients" class="ingredients-section-exact">
+        <div class="container ingredients-layout-exact">
+            
+            <!-- Left Side Empty Space so the Background Bottle is fully visible -->
+            <div class="formula-left-spacer">
+                <div class="good-stuff-pill-badge"></div>
+            </div>
+
+            <!-- Right Formula Content -->
+            <div class="formula-content-exact">
+                <div class="eyebrow">
+                    <span class="line"></span> MEET THE FORMULA
+                </div>
+                <h2>Thoughtful by nature.<br><em>Lovely by design.</em></h2>
+                <p class="formula-intro">
+                    The best routine is one you look forward to. Our fictional formula concept brings together familiar skincare favourites in a light, easy-to-layer serum.
+                </p>
+
+                <div class="formula-list">
+                    <div class="formula-row">
+                        <span class="formula-num">01</span>
+                        <div class="formula-info">
+                            <h3>Hyaluronic Acid</h3>
+                            <p>A hydration hero that helps skin feel plump and refreshed.</p>
+                        </div>
+                        <span class="formula-arrow">↗</span>
+                    </div>
+
+                    <div class="formula-row">
+                        <span class="formula-num">02</span>
+                        <div class="formula-info">
+                            <h3>Vitamin C</h3>
+                            <p>A well-known skincare ingredient used in brightening routines.</p>
+                        </div>
+                        <span class="formula-arrow">↗</span>
+                    </div>
+
+                    <div class="formula-row">
+                        <span class="formula-num">03</span>
+                        <div class="formula-info">
+                            <h3>Green Tea Extract</h3>
+                            <p>A botanical favourite valued for its antioxidant properties.</p>
+                        </div>
+                        <span class="formula-arrow">↗</span>
+                    </div>
+                </div>
+
+                <small class="formula-disclaimer">
+                    
+                </small>
+            </div>
+
+        </div>
+    </section>
+                 
+    
+   <!-- 7. Reviews Section -->
+    <section id="reviews" class="reviews-section">
+        <div class="container">
+            <div class="section-center-head">
+                <span class="section-tag">YOUR NEW TWO-MINUTE FAVOURITE</span>
+                <h2>Small ritual.<br><em>Big main-character energy.</em></h2>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-top">
+                        <img src="https://i.pravatar.cc/120?img=47" alt="Nimali P." class="reviewer-img">
+                        <div>
+                            <strong>Amali P.</strong>
+                            <small>Everyday glow seeker</small>
+                        </div>
+                        <span class="quote-mark">“</span>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">“The concept of a simple, lightweight serum is exactly what my routine needs. I love the soft, fresh feel.”</p>
+                    <div class="review-footer">ROUTINE SIMPLIFIER</div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-top">
+                        <img src="https://i.pravatar.cc/120?img=32" alt="Kavindi S." class="reviewer-img">
+                        <div>
+                            <strong>Kavindya S.</strong>
+                            <small>Skincare enthusiast</small>
+                        </div>
+                        <span class="quote-mark">“</span>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">“Pretty packaging, easy layering, and a little moment of self-care. A lovely idea for an everyday ritual.”</p>
+                    <div class="review-footer">DEWY SKIN MOOD</div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-top">
+                        <img src="https://i.pravatar.cc/120?img=44" alt="Sewwandika N." class="reviewer-img">
+                        <div>
+                            <strong>Sewwandi F.</strong>
+                            <small>Minimal routine fan</small>
+                        </div>
+                        <span class="quote-mark">“</span>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">“I'm all for a simple routine. The ingredient story and calm design make this feel like a treat.”</p>
+                    <div class="review-footer">LESS-BUT-BETTER</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Checkout / CTA Section (Matches Screenshot 5) -->
+    <section id="checkout" class="checkout-section-full">
+        <div class="checkout-full-grid">
+            
+            <!-- Left Side Content (Text, Price & Add to bag button) -->
+            <div class="checkout-left-content">
+                <div class="eyebrow">
+                    <span class="line"></span> YOUR NEXT SKINCARE OBSESSION
+                </div>
+                <h2>Make room for<br><em>a little more glow.</em></h2>
+                <p class="checkout-desc-text">
+                    Meet the GlowPure Radiance Serum concept — an easy first step toward a feel-good daily ritual.
+                </p>
+
+                <div class="checkout-features-row">
+                    <span>30 ml / 1 fl oz</span>
+                    <span class="dot">•</span>
+                    <span>Everyday ritual</span>
+                    <span class="dot">•</span>
+                    <span>Lightweight feel</span>
+                </div>
+
+                <div class="checkout-action-row">
+                    <div class="price-container">
+                        <small>CONCEPT PRICE</small>
+                        <div class="price-tag-main">LKR 4,900</div>
+                    </div>
+
+                    <button id="add-to-bag-btn" class="btn-dark-pill-custom">
+                        <span>Add to bag</span>
+                        <span>→</span>
+                    </button>
+                </div>
+
+                <p id="bag-message" class="bag-message"></p>
+                <small class="demo-note-text"></small>
+            </div>
+
+            <!-- Right Side Empty Space for Background Bottle Visibility -->
+            <div class="checkout-right-spacer"></div>
+
+        </div>
+    </section>
+
+    <!-- 9. FAQ Section (Matches Screenshot 6) -->
+    <section id="faq" class="faq-section">
+        <div class="container faq-grid">
+            <div class="faq-left">
+                <div class="eyebrow">
+                    <span class="line"></span> GOOD TO KNOW
+                </div>
+                <h2>A few things<br><em>you might wonder.</em></h2>
+                <p>Everything you need to know before adding a new step to your routine.</p>
+            </div>
+
+            <div class="faq-right">
+                <div class="faq-item active">
+                    <button class="faq-question">
+                        <span>What is GlowPure Radiance Serum?</span>
+                        <span class="faq-toggle">−</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>It's a lightweight, everyday facial serum concept formulated with Hyaluronic Acid, Vitamin C, and Green Tea Extract to hydrate, brighten, and simplify your skincare routine.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How would I add it to my routine?</span>
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Apply 2–3 drops to clean, slightly damp skin every morning and evening before your moisturizer and sunscreen.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is this a real product available to buy?</span>
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>This landing page is a custom-engineered storefront concept built for a technical performance & DataLayer tracking assessment.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What happens when I request the glow guide?</span>
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Submitting the form triggers a structured JSON event to <code>window.dataLayer</code> (<code>lead_form_submitted</code>) with your name, email, and timestamp.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Footer (Matches Screenshot 6) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand-wrap">
+                    <a href="#top" class="logo footer-logo">
+                        <span class="logo-emblem">
+                            <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+                                <path d="M16 3C10 9 7 14.5 7 20C7 24.97 11.03 29 16 29C20.97 29 25 24.97 25 20C25 14.5 22 9 16 3Z" stroke="#e5989b" stroke-width="1.6"/>
+                                <path d="M16 8V28M16 18C13 15 10 14 10 14M16 22C19 19 22 18 22 18" stroke="#e5989b" stroke-width="1.4" stroke-linecap="round"/>
+                            </svg>
+                        </span>
+                        <div class="logo-text">
+                            <strong>glow<span>pure</span></strong>
+                            <small>SKINCARE STUDIO</small>
+                        </div>
+                    </a>
+                    <p class="footer-tagline">
+                        <em>A little ritual for the everyday you to<br>feel like your glow era.</em>
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <a href="#benefits">Benefits</a>
+                    <a href="#ingredients">Ingredients</a>
+                    <a href="#reviews">Reviews</a>
+                    <a href="#hero_lead_form">Get the guide</a>
+                    <a href="#top">Back to top ↑</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <small>© 2026 GlowPure Skincare Studio • Fictional assessment brand</small>
+                <small>Designed with care ♡</small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
