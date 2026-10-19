@@ -1135,6 +1135,9 @@ h1, h2, h3, .logo-text strong, .bottle-brand, .price, .faq-question span:first-c
     }
 }
 
+
+
+
 /* --- Exact Match Pixel-Perfect Lead Card Styling --- */
 .lead-card {
     background: #ffffff !important;
@@ -1270,4 +1273,44 @@ h1, h2, h3, .logo-text strong, .bottle-brand, .price, .faq-question span:first-c
 
 .btn-submit:hover {
     background-color: #8a3045 !important;
+}
+
+
+
+.lead-card {
+    background: #ffffff !important;
+    padding: 28px 32px !important; /* උස අඩුවීමට padding (top/bottom) අඩු කිරීම */
+    border-radius: 26px !important;
+    box-shadow: 0 24px 60px rgba(142, 40, 67, 0.12) !important;
+    border: none !important;
+    width: 100% !important;
+    max-width: 500px !important; /* පළල (width එක) ටිකක් වැඩි කිරීම */
+}
+
+.card-sub {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-size: 13px !important;
+    color: #4a3538 !important;
+    margin-bottom: 16px !important; /* යට ඉඩ අඩු කරමින්සමබර කිරීම */
+    line-height: 1.5 !important;
+}
+
+.form-group {
+    margin-bottom: 12px !important; /* input field අතර පරතරය අඩු කිරීම */
+    text-align: left !important;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px 14px !important; /* input box වල උස ටිකක් අඩු කිරීම */
+    font-size: 13.5px !important;
+}
+
+.checkbox-group {
+    margin: 12px 0 16px !important; /* checkbox එකට ළඟින් button එක තැබීම */
+}
+
+.btn-submit {
+    padding: 13px 24px !important; /* Submit button එකේ උස ටිකක් අඩු කිරීම */
+    font-size: 14px !important;
 }
